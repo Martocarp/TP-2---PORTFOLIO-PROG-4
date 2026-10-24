@@ -1,16 +1,63 @@
-# React + Vite
+# TP2 - Portfolio Personal con React Router DOM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Alumno
 
-Currently, two official plugins are available:
+- **Nombre y apellido:** Martiniano Ocampo
+- **Comisión:** 5
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Descripción del proyecto
 
-## React Compiler
+Portfolio personal desarrollado con React y Vite para el Trabajo Práctico N.º 2 de Programación de la UTN-FRT.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+El proyecto consiste en una aplicación multipágina que permite navegar entre cinco secciones: Home, Sobre mí, Habilidades, Proyectos y Contacto.
 
-## Expanding the ESLint configuration
+Se utiliza React Router DOM para navegar entre las páginas sin recargar completamente el sitio. También se implementan componentes reutilizables, props, arrays, renderizado dinámico y useState para mostrar información adicional.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías utilizadas
+
+- React
+- Vite
+- JavaScript
+- JSX
+- HTML
+- CSS
+- React Router DOM
+- Git y GitHub
+
+## Instalación de dependencias
+
+1. Clonar el repositorio:
+
+```bash
+git clone URL_DEL_REPOSITORIO
+```
+
+2. Ingresar a la carpeta del proyecto:
+
+```bash
+cd tp2-prog
+```
+
+3. Instalar las dependencias:
+
+```bash
+npm install
+```
+
+## Ejecución local
+
+Para iniciar el servidor de desarrollo, ejecutar:
+
+```bash
+npm run dev
+```
+
+Luego abrir en el navegador la dirección local que indique Vite, normalmente:
+
+```text
+http://localhost:5173/
+```
+
+## Repositorio de GitHub
+
+**Enlace:** https://github.com/Martocarp/TP-2---PORTFOLIO-PROG-4
